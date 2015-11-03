@@ -1,0 +1,29 @@
+<footer class="site-footer">
+
+  <!-- Contact Buttons -->
+  <div class="site-contact">
+    <p class="contact-text">Contact Me:</p>
+    <div class="site-email">
+      <a class="contact-link" href="mailto:{{ site.email }}">
+        <img class="icon-email" src="/images/gmail.png"alt="gmail icon" />
+        <span>Email</span>
+      </a>
+    </div>
+    <div class="site-linkedin">
+      <a class="contact-link" href="{{ site.linkedin_profile_link }}">
+        <img class="icon-linkedin" src="/images/linkedin.png"alt="linkedin icon" />
+        <span>LinkedIn</span>
+      </a>
+    </div>
+    <div class="site-twitter">
+      <a class="contact-link" href="http://twitter.com/{{ site.twitter_username }}">
+        <img class="icon-twitter" src="/images/twitter.jpg"alt="twitter icon" />
+        <span>Twitter</span>
+      </a>
+    </div>
+  </div>
+
+    <!-- Site Copyright -->
+  <div class="site-copyright">{{ site.copyright }}</div>
+
+</footer>

@@ -1,0 +1,16 @@
+# Site settings
+title: Dan Gallagher
+subtitle: PCB Design / Front-End Development
+email: dgallagh9999@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Personal porfolio of Dan Gallagher, PCB Designer, Mechancial Designer, and
+  Front-End Web Developer, located in Melbourne, Florida.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://dangallagherweb.io" # the base hostname & protocol for your site
+twitter_username: dgallagh9999	
+github_username:  SKiiTR
+linkedin_profile_link: https://www.linkedin.com/pub/dan-gallagher/92/476/831
+copyright: "&copy; Dan Gallagher 2015"
+
+# Build settings
+markdown: kramdown

@@ -1,0 +1,19 @@
+// Our variables
+$menu-font-family:    Raleway, sans-serif;
+$base-font-family:    Roboto, sans-serif;
+$base-font-size:      1rem;
+$title-font-size:     $base-font-size * 1.625;
+$small-font-size:     $base-font-size * 0.875;
+$base-line-height:    1.5;
+
+$spacing-unit:        30px;
+
+$grey-color:          #aaa;
+$grey-color-light:    lighten($grey-color, 20%);
+$grey-color-dark:     darken($grey-color, 25%);
+
+$text-color:          #111;
+$menu-text-color:     white;
+$background-color:    $grey-color-light;
+$brand-color:         #3B6AA0;
+

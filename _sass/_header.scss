@@ -1,0 +1,87 @@
+.site-header{
+  font-family: $menu-font-family;
+  font-weight: 400;
+  color: $menu-text-color;
+  background: $brand-color;
+  height: 4.375rem;
+  margin-bottom: 3.5rem;
+
+  // Title Section
+  .site-titles {
+    width: 100%;
+    
+    .site-title,
+    .site-subtitle {
+      display: block;
+      padding: 0 0.875rem;
+      width: 100%;
+    }
+    .site-title {
+      font-size: $title-font-size;
+      padding-top: .25rem;
+      margin-bottom: -.2rem;
+    }
+    .site-subtitle {
+    }
+  }
+
+  //Navigation Buttons
+  .site-menu {
+    display: flex;
+    justify-content: space-around;
+    margin-top: .75rem;
+    width: 100%;
+
+    .page-link-wrapper,
+    .page-link-current {
+      background: $grey-color;
+      border-bottom: 2px solid rgba(0,0,0,0.5);
+      border-radius: 5px;
+      height: 2.1875rem;
+      width: 22.5%;
+    }
+    .page-link-current {
+      background: $grey-color-dark;
+      font-weight: 500;
+    }
+
+    .page-link {
+      display: block;
+      text-align: center;
+      line-height: 2.1875rem;
+      white-space: nowrap;
+    }
+  }
+
+  @media (min-width: 600px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 5rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.75rem;
+      
+    .site-titles {
+      width: 52%;
+
+      .site-title {
+        font-size: 2rem;
+      }
+    }
+  
+    .site-menu {
+      padding-right: 0.5rem;
+      width: 48%;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+

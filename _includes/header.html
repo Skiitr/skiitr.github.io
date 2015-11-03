@@ -1,0 +1,27 @@
+<!-- Capture the name of the page from the url -->
+{% capture location %}{{ page.url | remove: '.html' | split:'/' }}{% endcapture %}
+
+<header class="site-header">
+  
+  <!-- Title Section -->
+  <div class="site-titles">
+    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <a class="site-subtitle" href="{{ site.baseurl }}/">{{ site.subtitle }}</a>
+  </div>
+  
+    <!-- Navigation Buttons -->
+  <nav class="site-menu">
+    {% for page in site.pages %}
+    <!-- Compare the page title to the name of the page -->
+      {% assign current = page.title | downcase %}
+      
+      {% if page.title %}
+      <div {% if location == current %} class="page-link-current" {% else %} class="page-link-wrapper" {% endif %}>
+        <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+      </div>
+      {% endif %}
+
+    {% endfor %}
+  </nav>
+
+</header>
