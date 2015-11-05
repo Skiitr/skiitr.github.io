@@ -4,16 +4,21 @@ layout: default
 
 <div class="home">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <ul class="post">
+      {% for post in site.posts %}
+        <li class="post__item">
+          <a class="post__title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <div class="post__meta">
+            <b class="post__author">{{ post.author }}</b>
+            <b class="post__sep">&#x25cf;</b>
+            <b class="post__date">{{ post.date | date: "%b %-d, %Y" }}</b>
+          </div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+          {{ post.excerpt ß}}
+
+          <a class="btn--default" href="{{ post.url | prepend: site.baseurl }}">Read more</a>
+        </li>
+      {% endfor %}
+    </ul>
 
 </div>

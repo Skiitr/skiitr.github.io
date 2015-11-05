@@ -1,5 +1,6 @@
 ---
 title: About
+class: aboutPage
 layout: default
 image: /images/profile_photo_05242015.png
 ---

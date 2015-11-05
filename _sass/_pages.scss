@@ -23,13 +23,25 @@
   }
 
   hr {
-    
     border: 0;
     height: 0;
     border-top: 2px solid rgba(0, 0, 0, 0.1);
     border-bottom: 2px solid rgba(255, 255, 255, 0.3);
     margin: 1.5rem 1rem 0;
   }
+
+  @media (min-width: 600px) {
+    p, h2, h3, hr {
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+  }
+}
+
+
+// Skills page specific styles
+
+.skillLevels {
 
   ul li {
     color: white;
@@ -48,6 +60,19 @@
     }
   }
 
+  @media (min-width: 600px) {
+    ul li {
+      margin-left: 3.5rem;
+      margin-right: 3.5rem;
+    }
+  }
+}
+
+
+// About page specific styles
+
+.aboutPage {
+
   .about-pic {
     display: block;
     height: 150px;
@@ -56,16 +81,6 @@
   }
 
   @media (min-width: 600px) {
-    p, h2, h3, hr {
-      margin-left: 3rem;
-      margin-right: 3rem;
-    }
-
-    ul li {
-      margin-left: 3.5rem;
-      margin-right: 3.5rem;
-    }
-
     .about-pic {
       height: 175px;
       margin-right:1.5rem;
@@ -74,7 +89,6 @@
     }
   }
 }
-
 
 
 

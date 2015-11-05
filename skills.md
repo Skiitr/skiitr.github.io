@@ -1,5 +1,6 @@
 ---
 title: Skills
+class: skillLevels
 layout: default
 ---
 
