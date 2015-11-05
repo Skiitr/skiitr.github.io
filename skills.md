@@ -67,13 +67,16 @@ layout: default
 
 ## Web Development
 
-- HTML/CSS                  <span>4.0</span>
+- HTML                      <span>4.5</span>
+- CSS                       <span>4.0</span>
+- Sass                      <span>2.5</span>
 - Design                    <span>2.0</span>
 - Wordpress                 <span>3.0</span>
-- JavaScript                <span>2.0</span>
+- JavaScript                <span>3.5</span>
 - PHP                       <span>1.0</span>
 - Python                    <span>2.0</span>
 - Basic.NET                 <span>2.5</span>
+- Version Control           <span>4.0</span>
 
 <hr />
 
