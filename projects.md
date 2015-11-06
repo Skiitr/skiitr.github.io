@@ -49,7 +49,7 @@ The project was to design six mechanically identical 30W transmit amplifier modu
 ## Web Development
 
 ### [Simplicity Sprouts](http://simplicitysprouts.com)
-This site is a Wordpress blog I developed and maintain for my wife. This was the first full site I've helped create, publish and maintain. This was a steep learning curve to learn Wordpress development, understand PHP for theme modification and deploy a website. This site had a successful rollout and continues to serve as a solid bloging platform.
+This site is a Wordpress blog I developed and maintain. This was the first full site I've helped create, publish and maintain. This was a steep learning curve to learn Wordpress development, understand PHP for theme modification and deploy a website. This site had a successful rollout and continues to serve as a solid bloging platform.
 
 ### [Calculist](http://slylion.com/calculist)
 A simple web application whose purpose is to be both a simple calculator and a list program to store calculations. I found myself always needing a calculation I made 3 or 4 steps previous and would either have to write the info down as I went or re-calculate values. This application was to service that need.
