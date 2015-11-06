@@ -1,5 +1,6 @@
 ---
 title: Projects
+weight: 4
 layout: default
 ---
 
