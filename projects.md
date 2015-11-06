@@ -3,13 +3,9 @@ title: Projects
 layout: default
 ---
 
-A small sample of projects I've been involved with over the years...
+A small sample of projects I've been involved with over the years by category...
 
 ## Printed Circuit Board Layout 
-(2001 - Present >> 14 years)
-
-### 6x 30W Transmit Power Amplifiers (30MHz-6GHz) 
-This project included a tough requirement in that six modules had to be created each of a different frequency to cover the 30MHz to 6GHz band. Each amplifier had to be in the same package and be interchangeable. The success of the board layouts in the project came from creating a common platform in which we could supply all the control and power rails into 6 custom transmit amplifiers.
 
 ### Certified Avionics GPS / Nav / Com Systems
 Developed and maintained all 14 board designs for an avionics GPS/NAV/COM systems. The system includes front and backplane boards, display and button boards, 16W VHF radio boards as well as I/O and computational boards. Board technologies involved include high-speed digital, RF (VHF band), differential pairs, up to 17 layer boards, blind and epoxy filled cap plated vias. Designs required jigsaw fitting of PCBs into one another due to limited space. The project was successful though very close integration of the mechanical and electrical teams due to aggressive packaging.
@@ -17,16 +13,20 @@ Developed and maintained all 14 board designs for an avionics GPS/NAV/COM system
 ### Data Processor for Flying Projectile Sensor
 The requirements for this board design were a very small tight package that could fit in a flying sensor that contained extremely sensitive RF circuitry as well as a vast number of high-speed digital circuitry for data processing. Board contained two 100+ pin quad flat pack chips followed by an array of four 300+ pin BGAs. The technology of the board was in the 4mil trace and 4mil space range and contained 12 layers of which two were power planes, four ground planes and 6 were routing layers. The board was done without isolating ground planes and was successful at keeping all high-speed switching noise from the large amount of RF circuitry and vice versa. Each BGA had over 200 data connections and the board was hand routed for optimal efficiency of particular critical data lines. Board design functioned to specification on the first spin of the design.
 
+{::comment}
+### LMCO Amp boards
+Description of project C and the challenges associated.
+
 ### WiFi Bluetooth Module
 Description of project D and the challenges associated.
 
 ### Sea whip PCB Design
 Description of project E and the challenges associated.
+{:/comment}
 
 <hr />
 
 ## Mechanical Engineering
-(2007 - Present >> 8 years)
 
 ### Low Loss Space Qualified Pre-filtered GPS LNA
 This project was challenging due to the space qualification of the product. Everything on the design had to be designed to the highest standards. With soldered in tunable resonators for the cavity filter, custom transition tough a discrete low pass filter and finally going through a very low loss LNA, this project presented a muti-dimensional mechanical challenge. The final challenge of this project was that all qualification testing was required on every unit produced and the design passed all testing requirements.
@@ -46,10 +46,9 @@ The project was to design six mechanically identical 30W transmit amplifier modu
 <hr />
 
 ## Web Development
-(2014 - Present >> 1 year)
 
 ### [Simplicity Sprouts](http://simplicitysprouts.com)
-This site is a Wordpress blog I developed and maintain for my wife. This was the first full site I've helped create. This was a steep learning curb to learn Wordpress development and create a custom theme. The successful rollout of the site was done in May 2015.
+This site is a Wordpress blog I developed and maintain for my wife. This was the first full site I've helped create, publish and maintain. This was a steep learning curve to learn Wordpress development, understand PHP for theme modification and deploy a website. This site had a successful rollout and continues to serve as a solid bloging platform.
 
 ### [Calculist](http://slylion.com/calculist)
 A simple web application whose purpose is to be both a simple calculator and a list program to store calculations. I found myself always needing a calculation I made 3 or 4 steps previous and would either have to write the info down as I went or re-calculate values. This application was to service that need.
@@ -60,38 +59,42 @@ Designed and Developed the site this write up is on from scratch. I designed the
 <hr />
 
 ## Configuration Management / Document Control
-(2003 - Present >> 12 years)
 
-### LMCO amplifier configuration project
-Description of project A and the challenges associated.
+### Transmit Amplifiers for IED Jamming System (10MHz-6GHz) 
+The project was to design six mechanically identical 30W transmit amplifier modules each with a unique frequency band to cover overall the whole 10MHz to 6GHz spectrum. I severed as one of the project managers/coordinators on this job. My role was to manage the configuration of each unit how it was built and assembled, how all the pieces were being fabricated and delivered, as well as how that fit into our overall schedule. This was managed through multiple vendors as well as across many site locations throughout the company.
 
+
+{::comment}
 ### Project B
 Description of project B and the challenges associated.
 
 ### Project C
 Description of project C and the challenges associated.
+{:/comment}
 
 <hr />
 
 ## Component Engineering
-(2010 - Present >> 5 years)
 
-### Component Engineering Team Avidyne
-Description of project A and the challenges associated.
+### Component Engineering Team
+A team was established to deal with all component obsolescence and end-of-life issues. The task was to track, manage and solve component issues in both new product development and maintenance of legacy products. The role I played on this team was the hardware engineering liaison. My responsibilities were to find alternate components and verify part equivalence through analysis or verification. Working closely with configuration control, purchasing, mechanical engineering and electrical engineering this project allowed the company to function without a dedicated component engineer.
 
+{::comment}
 ### Component EoL research Spectrum
 Description of project B and the challenges associated.
+{:/comment}
 
 <hr />
 
 ## Process Engineering
-(2007 - 2012 >> 4 years)
 
 ### Printed Circuit Board Standardization
 The project started to bring 10 years worth of boards design under the same design and manufacturing standards. Improvements to the internal standards covered, documentation (fabrication, assembly, and bills of materials), data management (assembly data, metadata in schematics), component standardization (part count reduction, bills of material auditing), and design rules for fabrication, test, and manufacturing.
 
+{::comment}
 ### Global Library Standardization Project Spectrum
 Description of project B and the challenges associated.
 
-### Project C
+### Fabrication of Printed Circuit Board Prototypes
 Description of project C and the challenges associated.
+{:/comment}
