@@ -1,11 +1,36 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+
 ---
 
-@import 'variables',
-        'base',
-        'header',
-        'footer',
-        'pages',
-        'home';
+/***********************************
+Project Variables
+***********************************/
+@import 'variables';
+
+/***********************************
+Whole Project Styles
+***********************************/
+@import 'base';
+
+/***********************************
+Header Styles
+***********************************/
+@import 'header';
+
+/***********************************
+Footer Styles
+***********************************/
+@import 'footer';
+
+/***********************************
+Styles for the home page specificly
+***********************************/
+@import 'home';
+
+/***********************************
+Styles for pages and specific pages
+***********************************/
+@import 'pages';
+
+
 
