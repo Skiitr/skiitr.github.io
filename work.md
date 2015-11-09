@@ -51,7 +51,7 @@ Design and layout of hybrid chip and wire designs. Designs 100MHz - 20GHz and in
 Design of RF assemblies from conceptual designs to complete and ready for manufacturing handoff. Support of legacy product design and documentation. Design of manufacturing and test fixtures.
 
 ### Process Engineering
-Support for all manufacturing documentation and processes. design of new processes for products transitioning into full rate manufacturing.
+Support for all manufacturing documentation and processes. Design of new processes for products transitioning into full rate manufacturing.
 
 <hr />
 

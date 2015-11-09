@@ -14,6 +14,6 @@ Over the years, sparks of curiosity have struck leading me down many different p
 
 Using the continued knowledge that I acquire across many different technology disciplines, I have found great success in my day-to-day career. I’m hoping for this site to be the platform in which I can communicate, professionally and otherwise, all that I have to offer.
 
-Please feel free to contact me regarding anything you would like to discuss. I'm happy to answer any and all questions you might have about my experience as well as any questions you might have about the industries in which I've worked and technologies with which I’m familiar. See below for all methods in which to get in touch with me. The easiest and most effective way to get in touch with me is through email. 
+Please feel free to contact me regarding anything you would like to discuss. I'm happy to answer any questions you might have about my experience as well as any questions you might have about the industries in which I've worked and technologies with which I’m familiar. See below for all methods in which to get in touch with me. The easiest and most effective way to get in touch with me is through email. 
 
 Enjoy!
