@@ -17,12 +17,12 @@ The requirements for this board design were a very small tight package that coul
 ### WiFi Bluetooth Module
 Requirements for this project were to create a very small SMT level board module that contained a WiFi and Bluetooth chipset, integrated power supply and dual band chip antenna. This board was sized at about 2 x 0.75 inches and had a sizeable 0.5mm pitch BGA as the main chip on the board. This drove technology down to 3mil trace and 3mil spaces, as well as blind and buried vias for BGA breakout. This board design was on a 0.063-inch thick board so the layer count needed to be as low as possible. This was all hand routed and critical care was taken to avoid any possible noise issue within the layout of the traces between layers. This product was successfully created and used by and end customer in the medical equipment field.
 
-{::comment}
-### LMCO Amp boards
-Description of project C and the challenges associated.
+### Low Noise Switched Amplifier
+The goal of this module was to take in 3 independent RF input signals at 2-3.75GHz and amplify a selected path while maintaining low noise specification, ensuring low return loss and high isolation between ports. I was the primary mechanical and printed circuit board designer of this project. The package was a 4.0 x 2.0 x 0.5-inch box with 4 SMA connectors on the leading face and one micro d-subminiature connector for power and communication on the rear face. This module required a very thin PCB while overlapping large areas of RF circuitry with limited layer count. The bottom side of the board was a switch bank feeding into an LNA on the top side of the board. Care was taken prevent RF signal isolation in the routing placement and layer configuration of the board. Blind vias on both sides of the board were required as was impedance matching of traces. This project was successful in meeting all specifications and due to its success future order were placed.
 
-### Sea whip PCB Design
-Description of project E and the challenges associated.
+{::comment}
+### 30 to 512 MHz 100W Power Amplifier
+We were asked to develop a 30-512MHz high power amplifier to go into th wing of a UAV. This has requirements that it must not generate too much heat, or at least cool itself with a build in heatsink, and it had to weigh a little as possible. In order to fit the large RF amplifier and power supply cirtical care had to be 
 {:/comment}
 
 <hr />
