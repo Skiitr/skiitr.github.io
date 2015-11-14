@@ -1,0 +1,32 @@
+.post {
+  
+  .post__item, .post__header {
+    list-style: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+    a {
+      color: $brand-color;
+      margin-left: 1.25rem;
+      @media (min-width: 600px) {
+        margin-left: 3rem;
+      }
+    }
+
+    .post__title {
+      font-family: $menu-font-family;
+      font-size: 1.5rem;
+      font-weight: 500;
+      margin-bottom: 0;
+      color: $brand-color
+
+    }
+
+    .post__meta {
+      font-family: $base-font-family;
+      color: $grey-color-dark;
+      font-size: 0.75rem;
+      margin-bottom: 1rem;
+    }
+  }
+}
