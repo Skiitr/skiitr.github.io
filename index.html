@@ -1,5 +1,5 @@
 ---
-layout: default
+
 ---
 
 <div class="home">
@@ -8,13 +8,9 @@ layout: default
       {% for post in site.posts %}
         <li class="post__item">
           <a class="post__title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          <div class="post__meta">
-            <b class="post__author">{{ post.author }}</b>
-            <b class="post__sep">&#x25cf;</b>
-            <b class="post__date">{{ post.date | date: "%b %-d, %Y" }}</b>
-          </div>
-
-          {{ post.excerpt ß}}
+          <p class="post__meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
+          
+          {{ post.excerpt }}
 
           <a class="btn--default" href="{{ post.url | prepend: site.baseurl }}">Read more</a>
         </li>

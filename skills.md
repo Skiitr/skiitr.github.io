@@ -2,7 +2,6 @@
 title: Skills
 class: skillLevels
 weight: 3
-layout: default
 ---
 
 ### Scale:

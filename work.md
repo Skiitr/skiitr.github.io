@@ -1,7 +1,6 @@
 ---
 title: Work
 weight: 2
-layout: default
 ---
 
 ## Avidyne, Corp

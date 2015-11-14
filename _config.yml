@@ -14,3 +14,18 @@ copyright: "&copy; Dan Gallagher 2015"
 
 # Build settings
 markdown: kramdown
+
+# Default settings
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
+      author: "Dan Gallagher"

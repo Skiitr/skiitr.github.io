@@ -1,7 +1,6 @@
 ---
 title: Projects
 weight: 4
-layout: default
 ---
 
 A small sample of projects I've been involved with over the years by category...

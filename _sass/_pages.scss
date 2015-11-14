@@ -1,7 +1,7 @@
 
 .page-content{
   
-  p, h2, h3 {
+  p, h1, h2, h3 {
     font-size: 1.1rem;
     margin: 0 1.25rem 0.75rem;
   }
@@ -31,7 +31,7 @@
   }
 
   @media (min-width: 600px) {
-    p, h2, h3, hr {
+    p, h1, h2, h3, hr {
       margin-left: 3rem;
       margin-right: 3rem;
     }

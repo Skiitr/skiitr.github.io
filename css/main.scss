@@ -23,14 +23,13 @@ Footer Styles
 @import 'footer';
 
 /***********************************
-Styles for the home page specificly
-***********************************/
-@import 'home';
-
-/***********************************
 Styles for pages and specific pages
 ***********************************/
 @import 'pages';
 
+/***********************************
+Styles for Posts
+***********************************/
+@import 'post';
 
 

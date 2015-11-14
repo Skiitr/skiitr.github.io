@@ -2,7 +2,6 @@
 title: About
 class: aboutPage
 weight: 1
-layout: default
 image: /images/profile_photo_05242015.png
 ---
 
