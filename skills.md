@@ -32,7 +32,7 @@ weight: 3
 - Electronics Packaging     <span>8.0</span>
 - Avionics Packaging        <span>6.0</span>
 - High Power Packaging      <span>7.5</span>
-- High Frequency Packaging  <span>7.5</span>
+- High Freq. Packaging      <span>7.5</span>
 - Molded Part Design        <span>7.0</span>
 - Fixture Design            <span>8.0</span>
 - Metal Fabrication         <span>7.0</span>
