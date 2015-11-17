@@ -27,11 +27,11 @@ Header Styles
 .site-header .site-titles { width: 100%; }
 .site-header .site-titles .site-title, .site-header .site-titles .site-subtitle { display: block; padding: 0 0.875rem; width: 100%; }
 .site-header .site-titles .site-title { font-size: 1.625rem; padding-top: .25rem; margin-bottom: -.2rem; }
-.site-header .site-menu { display: flex; justify-content: space-around; margin-top: .75rem; width: 100%; }
+.site-header .site-menu { display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-justify-content: space-around; -ms-flex-pack: distribute; justify-content: space-around; margin-top: .75rem; width: 100%; }
 .site-header .site-menu .page-link-wrapper, .site-header .site-menu .page-link-current { background: #aaa; border-bottom: 2px solid rgba(0, 0, 0, 0.5); border-radius: 5px; height: 2.1875rem; width: 22.5%; }
 .site-header .site-menu .page-link-current { background: #6a6a6a; font-weight: 500; }
 .site-header .site-menu .page-link { display: block; text-align: center; line-height: 2.1875rem; white-space: nowrap; }
-@media (min-width: 600px) { .site-header { display: flex; justify-content: space-between; align-items: flex-end; height: 5rem; margin-bottom: 1rem; padding-bottom: 0.75rem; }
+@media (min-width: 600px) { .site-header { display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; -webkit-align-items: flex-end; -ms-flex-align: end; align-items: flex-end; height: 5rem; margin-bottom: 1rem; padding-bottom: 0.75rem; }
   .site-header .site-titles { width: 52%; }
   .site-header .site-titles .site-title { font-size: 2rem; }
   .site-header .site-menu { padding-right: 0.5rem; width: 48%; } }
@@ -40,10 +40,10 @@ Header Styles
 Footer Styles
 ***********************************/
 .site-footer { font-family: Raleway, sans-serif; font-weight: 400; color: white; background: #3B6AA0; height: 2.1875rem; margin-top: 9rem; }
-.site-footer .site-contact { display: flex; font-weight: 300; font-size: 0.875rem; color: black; position: relative; top: -95px; flex-wrap: wrap; justify-content: center; width: 100%; }
+.site-footer .site-contact { display: -webkit-flex; display: -ms-flexbox; display: flex; font-weight: 300; font-size: 0.875rem; color: black; position: relative; top: -95px; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; width: 100%; }
 .site-footer .site-contact .contact-text { display: block; width: 100%; text-align: center; }
 .site-footer .site-contact .site-email, .site-footer .site-contact .site-linkedin, .site-footer .site-contact .site-twitter { height: 3.75rem; width: 2.1875rem; margin: 5px 12px; }
-.site-footer .site-contact .contact-link { display: flex; flex-wrap: wrap; flex-direction: column; justify-content: space-between; align-items: center; color: black; height: 100%; width: 100%; text-align: center; }
+.site-footer .site-contact .contact-link { display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; -webkit-align-items: center; -ms-flex-align: center; align-items: center; color: black; height: 100%; width: 100%; text-align: center; }
 .site-footer .site-contact .contact-link .icon-email, .site-footer .site-contact .contact-link .icon-linkedin, .site-footer .site-contact .contact-link .icon-twitter { border-bottom: 2px solid rgba(0, 0, 0, 0.5); border-radius: 3px; height: 2.1875rem; }
 .site-footer .site-contact .contact-link .icon-email { width: 2.1875rem; height: auto; padding-top: 5px; margin-bottom: 5px; }
 .site-footer .site-copyright { display: block; position: relative; top: -85px; padding: 0 10px; width: 100%; }
@@ -60,7 +60,7 @@ Styles for pages and specific pages
 .page-content hr { border: 0; height: 0; border-top: 2px solid rgba(0, 0, 0, 0.1); border-bottom: 2px solid rgba(255, 255, 255, 0.3); margin: 1.5rem 1rem 0; }
 @media (min-width: 600px) { .page-content p, .page-content h1, .page-content h2, .page-content h3, .page-content hr { margin-left: 3rem; margin-right: 3rem; } }
 
-.skillLevels ul li { color: white; display: flex; align-items: center; justify-content: space-between; margin: 0.5rem 2rem; padding: 0 1rem; height: 1.4rem; border-radius: 0.7rem; background: #3B6AA0; }
+.skillLevels ul li { color: white; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; margin: 0.5rem 2rem; padding: 0 1rem; height: 1.4rem; border-radius: 0.7rem; background: #3B6AA0; }
 .skillLevels ul li span { padding-right: 0.5rem; }
 @media (min-width: 600px) { .skillLevels ul li { margin-left: 3.5rem; margin-right: 3.5rem; } }
 
