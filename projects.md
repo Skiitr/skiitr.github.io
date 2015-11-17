@@ -3,7 +3,9 @@ title: Projects
 weight: 4
 ---
 
-A small sample of projects I've been involved with over the years by category...
+Below you will find a small sample of projects I've been involved with over the years. I've tried to put these into categories, but in many projects the role that I played was very cross discipline.
+
+
 
 ## Printed Circuit Board Layout 
 
@@ -19,12 +21,9 @@ Requirements for this project were to create a very small SMT level board module
 ### Low Noise Switched Amplifier
 The goal of this module was to take in 3 independent RF input signals at 2-3.75GHz and amplify a selected path while maintaining low noise specification, ensuring low return loss and high isolation between ports. I was the primary mechanical and printed circuit board designer of this project. The package was a 4.0 x 2.0 x 0.5-inch box with 4 SMA connectors on the leading face and one micro d-subminiature connector for power and communication on the rear face. This module required a very thin PCB while overlapping large areas of RF circuitry with limited layer count. The bottom side of the board was a switch bank feeding into an LNA on the top side of the board. Care was taken prevent RF signal isolation in the routing placement and layer configuration of the board. Blind vias on both sides of the board were required as was impedance matching of traces. This project was successful in meeting all specifications and due to its success future order were placed.
 
-{::comment}
-### 30 to 512 MHz 100W Power Amplifier
-We were asked to develop a 30-512MHz high power amplifier to go into th wing of a UAV. This has requirements that it must not generate too much heat, or at least cool itself with a build in heatsink, and it had to weigh a little as possible. In order to fit the large RF amplifier and power supply cirtical care had to be 
-{:/comment}
-
 <hr />
+
+
 
 ## Mechanical Engineering
 
@@ -45,6 +44,8 @@ The project was to design six mechanically identical 30W transmit amplifier modu
 
 <hr />
 
+
+
 ## Web Development
 
 ### [Simplicity Sprouts](http://simplicitysprouts.com)
@@ -58,43 +59,35 @@ Designed and Developed the site this write up is on from scratch. I designed the
 
 <hr />
 
+
+
 ## Configuration Management / Document Control
 
 ### Transmit Amplifiers for IED Jamming System (10MHz-6GHz) 
 The project was to design six mechanically identical 30W transmit amplifier modules each with a unique frequency band to cover overall the whole 10MHz to 6GHz spectrum. I severed as one of the project managers/coordinators on this job. My role was to manage the configuration of each unit how it was built and assembled, how all the pieces were being fabricated and delivered, as well as how that fit into our overall schedule. This was managed through multiple vendors as well as across many site locations throughout the company.
 
-
-{::comment}
-### Project B
-Description of project B and the challenges associated.
-
-### Project C
-Description of project C and the challenges associated.
-{:/comment}
-
 <hr />
+
+
 
 ## Component Engineering
 
 ### Component Engineering Team
 A team was established to deal with all component obsolescence and end-of-life issues. The task was to track, manage and solve component issues in both new product development and maintenance of legacy products. The role I played on this team was the hardware engineering liaison. My responsibilities were to find alternate components and verify part equivalence through analysis or verification. Working closely with configuration control, purchasing, mechanical engineering and electrical engineering this project allowed the company to function without a dedicated component engineer.
 
-{::comment}
-### Component EoL research Spectrum
-Description of project B and the challenges associated.
-{:/comment}
-
 <hr />
+
+
 
 ## Process Engineering
 
 ### Printed Circuit Board Standardization
-The project started to bring 10 years worth of boards design under the same design and manufacturing standards. Improvements to the internal standards covered, documentation (fabrication, assembly, and bills of materials), data management (assembly data, metadata in schematics), component standardization (part count reduction, bills of material auditing), and design rules for fabrication, test, and manufacturing.
-
-{::comment}
-### Global Library Standardization Project Spectrum
-Description of project B and the challenges associated.
+The project started to bring 10 years worth of boards design under the same design and manufacturing standards. Improvements to the internal standards covered, documentation (fabrication, assembly, and bills of materials), data management (assembly data, metadata in schematics), component standardization (part count reduction, bills of material auditing), and design rules for fabrication, test, and manufacturing. To date, this project has been successful in not only saving money in cost reduction of current and legacy parts but cost reduced the design process.  Fewer mistakes are created and the overall company documentation has greater uniformity.
 
 ### Fabrication of Printed Circuit Board Prototypes
-Description of project C and the challenges associated.
-{:/comment}
+One project that covered multiple disciplines was the creation of a prototype fabrication line for printed circuit boards. The boards had two requirements, that traces and spaces on the board were very accurate (+/- .005mm) and that the boards had plated through holes. This project required quite a bit of chemistry setup and I was the principle engineer who created and maintained this fabrication line. This required learning the technologies associated with laser ablation etching (performed by an LPKF machine) to cut traces, pads and holes into circuit boards. After the boards were cut out there was a need to create reliable plated through holes. This required the development of a few plating setups. First was an electroless copper plating process setup to establish a thin layer of copper that could then be reinforced in an electrolytic copper plating bath. This process proved to be a large consumer of time and producer of a large volume of waste chemicals so another process, using conductive ink, replaced this. A manual process of coating the via holes with ink followed by an electrolytic plating process created reliable plated through holes in these laser-etched prototype boards. The fabrication line was successful in fabricating many high-frequency RF prototypes designs saving the company weeks of fabrication time and access to many experimental iterations of a design.
+
+### Global Library Standardization Project
+A team was created to incorporate the printed circuit board layout libraries of six divisions, originally of different company origin, into a single source that could be shared throughout the company. Along with this was the transitioning to single schematic and layout software across the company. I was one of three primary engineers on the team created to standardize the processes of each company. Upon reviewing component standards such as IPC, and the existing library setups created by each division we were able to craft a uniform library process that could be used by anyone in the company. A system was established to review and check parts. Also, a weekly teleconference was held to go over the challenges of the project and assign new tasks out to each division. The project took about 6 months to roll out in a complete form. Once setup and being used each of the six sites were able to create and edited library components (parts, schematic symbols, and footprints) that were available to all sites.
+
+
