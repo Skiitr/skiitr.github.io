@@ -1,35 +1,73 @@
----
-
----
-
 /***********************************
 Project Variables
 ***********************************/
-@import 'variables';
-
 /***********************************
 Whole Project Styles
 ***********************************/
-@import 'base';
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
+
+html, body { width: 100%; margin: 0px; padding: 0px; overflow-x: hidden; }
+
+html { background-color: #efefef; }
+
+body { font-family: Roboto, sans-serif; font-size: 1rem; line-height: 1.5; font-weight: 300; color: #111; background-color: #dddddd; -webkit-text-size-adjust: 100%; box-sizing: border-box; min-width: 300px; max-width: 800px; margin-left: auto; margin-right: auto; }
+
+img { max-width: 100%; vertical-align: middle; }
+
+a, a:link, a:hover, a:active, a:visited { text-decoration: none; color: white; }
 
 /***********************************
 Header Styles
 ***********************************/
-@import 'header';
+.site-header { font-family: Raleway, sans-serif; font-weight: 400; color: white; background: #3B6AA0; height: 4.375rem; margin-bottom: 3.5rem; }
+.site-header .site-titles { width: 100%; }
+.site-header .site-titles .site-title, .site-header .site-titles .site-subtitle { display: block; padding: 0 0.875rem; width: 100%; }
+.site-header .site-titles .site-title { font-size: 1.625rem; padding-top: .25rem; margin-bottom: -.2rem; }
+.site-header .site-menu { display: flex; justify-content: space-around; margin-top: .75rem; width: 100%; }
+.site-header .site-menu .page-link-wrapper, .site-header .site-menu .page-link-current { background: #aaa; border-bottom: 2px solid rgba(0, 0, 0, 0.5); border-radius: 5px; height: 2.1875rem; width: 22.5%; }
+.site-header .site-menu .page-link-current { background: #6a6a6a; font-weight: 500; }
+.site-header .site-menu .page-link { display: block; text-align: center; line-height: 2.1875rem; white-space: nowrap; }
+@media (min-width: 600px) { .site-header { display: flex; justify-content: space-between; align-items: flex-end; height: 5rem; margin-bottom: 1rem; padding-bottom: 0.75rem; }
+  .site-header .site-titles { width: 52%; }
+  .site-header .site-titles .site-title { font-size: 2rem; }
+  .site-header .site-menu { padding-right: 0.5rem; width: 48%; } }
 
 /***********************************
 Footer Styles
 ***********************************/
-@import 'footer';
+.site-footer { font-family: Raleway, sans-serif; font-weight: 400; color: white; background: #3B6AA0; height: 2.1875rem; margin-top: 9rem; }
+.site-footer .site-contact { display: flex; font-weight: 300; font-size: 0.875rem; color: black; position: relative; top: -95px; flex-wrap: wrap; justify-content: center; width: 100%; }
+.site-footer .site-contact .contact-text { display: block; width: 100%; text-align: center; }
+.site-footer .site-contact .site-email, .site-footer .site-contact .site-linkedin, .site-footer .site-contact .site-twitter { height: 3.75rem; width: 2.1875rem; margin: 5px 12px; }
+.site-footer .site-contact .contact-link { display: flex; flex-wrap: wrap; flex-direction: column; justify-content: space-between; align-items: center; color: black; height: 100%; width: 100%; text-align: center; }
+.site-footer .site-contact .contact-link .icon-email, .site-footer .site-contact .contact-link .icon-linkedin, .site-footer .site-contact .contact-link .icon-twitter { border-bottom: 2px solid rgba(0, 0, 0, 0.5); border-radius: 3px; height: 2.1875rem; }
+.site-footer .site-contact .contact-link .icon-email { width: 2.1875rem; height: auto; padding-top: 5px; margin-bottom: 5px; }
+.site-footer .site-copyright { display: block; position: relative; top: -85px; padding: 0 10px; width: 100%; }
+@media (min-width: 600px) { .site-footer { height: 50px; }
+  .site-footer .site-copyright { top: -77.5px; } }
 
 /***********************************
 Styles for pages and specific pages
 ***********************************/
-@import 'pages';
+.page-content p, .page-content h1, .page-content h2, .page-content h3 { font-size: 1.1rem; margin: 0 1.25rem 0.75rem; }
+.page-content h2 { font-weight: 600; padding-top: 1.5rem; margin-bottom: 0; }
+.page-content h3 { font-weight: 500; font-style: italic; margin-bottom: 0; }
+.page-content h3 a { color: #3B6AA0; }
+.page-content hr { border: 0; height: 0; border-top: 2px solid rgba(0, 0, 0, 0.1); border-bottom: 2px solid rgba(255, 255, 255, 0.3); margin: 1.5rem 1rem 0; }
+@media (min-width: 600px) { .page-content p, .page-content h1, .page-content h2, .page-content h3, .page-content hr { margin-left: 3rem; margin-right: 3rem; } }
+
+.skillLevels ul li { color: white; display: flex; align-items: center; justify-content: space-between; margin: 0.5rem 2rem; padding: 0 1rem; height: 1.4rem; border-radius: 0.7rem; background: #3B6AA0; }
+.skillLevels ul li span { padding-right: 0.5rem; }
+@media (min-width: 600px) { .skillLevels ul li { margin-left: 3.5rem; margin-right: 3.5rem; } }
+
+.aboutPage .about-pic { display: block; height: 150px; border-radius: 50%; margin: 5px auto; }
+@media (min-width: 600px) { .aboutPage .about-pic { height: 175px; margin-right: 1.5rem; display: inline-block; float: left; } }
 
 /***********************************
 Styles for Posts
 ***********************************/
-@import 'post';
-
-
+.post .post__item, .post .post__header { list-style: none; padding-top: 1rem; padding-bottom: 1rem; }
+.post .post__item a, .post .post__header a { color: #3B6AA0; margin-left: 1.25rem; }
+@media (min-width: 600px) { .post .post__item a, .post .post__header a { margin-left: 3rem; } }
+.post .post__item .post__title, .post .post__header .post__title { font-family: Raleway, sans-serif; font-size: 1.5rem; font-weight: 500; margin-bottom: 0; color: #3B6AA0; }
+.post .post__item .post__meta, .post .post__header .post__meta { font-family: Roboto, sans-serif; color: #6a6a6a; font-size: 0.75rem; margin-bottom: 1rem; }
