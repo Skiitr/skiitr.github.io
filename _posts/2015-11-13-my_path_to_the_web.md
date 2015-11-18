@@ -1,5 +1,5 @@
 ---
-title: The Path to the Web
+title: My Path to the Web
 Date: November 13th, 2015
 ---
 
