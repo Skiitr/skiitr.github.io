@@ -59,8 +59,7 @@ Header Styles
     .site-header .site-titles .site-title,
     .site-header .site-titles .site-subtitle {
       display: block;
-      padding: 0 0.875rem;
-      width: 100%; }
+      padding-left: 0.875rem; }
     .site-header .site-titles .site-title {
       font-size: 1.625rem;
       padding-top: .25rem;
@@ -161,8 +160,7 @@ Footer Styles
   height: 2.1875rem; }
   .site-footer .footer-bar .site-copyright {
     display: block;
-    padding: 5px 10px;
-    width: 100%; }
+    padding: 5px 10px; }
   @media (min-width: 600px) {
     .site-footer .footer-bar {
       height: 50px; }
