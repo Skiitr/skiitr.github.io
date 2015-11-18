@@ -3,7 +3,7 @@ title: The Path to the Web
 Date: November 13th, 2015
 ---
 
-Here I am nearing the end of 2015...I started off on a journey in early 2014 to learn a few new skills that would help me with leveling-up my day-to-day technical skills. This included me digging back into a few Udacity courses on programming I had taken in the Summer of 2013, as well as picking up some new skills on CodeAcademy. All in all, this lasted about 3-4 months until life again became quite busy for me as my wife was pregnant and about to give birth to our second child. If a second child wasn't enough, the company I work for had decided to lay off almost half the staff and my role there changed dramatically. I was busy, the extra time for learning came second.
+Here I am nearing the end of 2015...I started off on a journey in early 2013 to learn a few new skills that would help me with leveling-up my day-to-day technical skills. This included me digging back into a few Udacity courses on programming I had taken in the Summer of 2012, as well as picking up some new skills on CodeAcademy. All in all, this lasted about 3-4 months until life again became quite busy for me as my wife was pregnant and about to give birth to our second child. If a second child wasn't enough, the company I work for had decided to lay off almost half the staff and my role there changed dramatically. I was busy, the extra time for learning came second.
 
 Fast forward to 2015. This year my son turned two, my daughter six, and my wife and I juuust about have the hang of how to parent two children (most days). This control allowed me to gravitate back to my passion for self-education.
 
