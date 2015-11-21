@@ -10,6 +10,8 @@ weight: 3
 6-8 : Proficient \\
 8-10: Expert
 
+<hr />
+
 ## Printed Circuit Board Design
 
 - Schematic Entry           <span>8.5</span>

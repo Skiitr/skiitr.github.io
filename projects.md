@@ -5,7 +5,7 @@ weight: 4
 
 Below you will find a small sample of projects I've been involved with over the years. I've tried to put these into categories, but in many projects the role that I played was very cross discipline.
 
-
+<hr />
 
 ## Printed Circuit Board Layout 
 

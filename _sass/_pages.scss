@@ -3,23 +3,26 @@
   
   p, h1, h2, h3 {
     font-size: 1.1rem;
-    margin: 0 1.25rem 0.75rem;
+    margin: 0 1.25rem 1rem;
   }
 
   h2 {
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 1.35rem;
     padding-top: 1.5rem;
     margin-bottom: 0;
   }
 
   h3 {
-    font-weight: 500;
-    font-style: italic;
+    color: $brand-color;
+    font-weight: 400;
     margin-bottom: 0;
+    margin-top: 1.5rem;
   }
 
   h3 a {
-    color: $brand-color
+    color: $brand-color;
+    text-decoration: underline;
   }
 
   hr {
