@@ -3,4 +3,4 @@ _working
 .sass-cache
 .DS_Store
 _sass/.DS_Store
-css/main_.scss
+node_modules
