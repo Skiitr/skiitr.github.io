@@ -3,7 +3,8 @@ var gulp        = require('gulp'),
     browserSync = require('browser-sync'),
     sass        = require('gulp-sass'),
     prefix      = require('gulp-autoprefixer'),
-    cp          = require('child_process');
+    cp          = require('child_process'),
+    rename      = require('gulp-rename');
 
 //Message to print for BrowserSync
 var messages = {
@@ -39,6 +40,7 @@ gulp.task('sass', function () {
             outputStyle: 'compressed',
             onError: browserSync.notify
         }))
+        .pipe(rename({suffix: '.min'}))
         .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
         .pipe(gulp.dest('_site/css'))
         .pipe(browserSync.reload({stream:true}))
