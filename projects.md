@@ -57,6 +57,9 @@ A simple web application whose purpose is to be both a simple calculator and a l
 ### [Personal Portfolio Page](http://dangallagher.xyz)
 Designed and Developed the site this write up is on from scratch. I designed the mockup in Keynote. Jekyll was used both as a post processor for Sass and as a static site generator. Using Git for my version control, I was able to push this to Git Pages and deploy modifications easily.
 
+### [AviFish](http://slylion.com/avifish)
+Designed and Developed an application to lighten the workload of generating links for a documentation control system. Avidyne uses a separate document control system from their configuration control system. This means to pull files from the configuration control system you need to link externally to it. This app runs a query based on a submitted changelist and given repository, opens a page and then the contents of the page can be copy and pasted into the app and the document links are extracted and formatted. Previously this has always been done manually. My original intent for this application was to query the page directly but due to cross-domains resource sharing restrictions I was unable to do this. This was designed in HTML, Sass, and vanilla JavaScript (with the exception of Jquery to $.parseXML). I used a Jekyll template and a Gulp build process to do Autoprefixing, minification, and browser sync during development. I have saved myself and another employee at Avidyne 5-15 mins of work each day by using this app rather than processing these links by hand.
+
 <hr />
 
 
