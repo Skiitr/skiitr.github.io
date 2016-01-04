@@ -1,5 +1,5 @@
 ---
-title: 2016 Journal &#58; Week 01
+title: 2016 Journal&#58; Week 01
 Date: January 3rd, 2016
 ---
 
