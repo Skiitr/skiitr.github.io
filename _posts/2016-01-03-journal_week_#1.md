@@ -1,0 +1,14 @@
+---
+title: 2016 Journal - Week 01
+Date: January 3rd, 2016
+---
+
+New year, a time of reflection and forward thinking. Throughout 2015, I had the desire to start writing down all of the new things I was studying and working on each week. At the end of the year, I thought one of the ways I could do this was to write down each week's accomplishments and publish them to my website. This is my first personal project of 2016, starting a weekly journal. Hopefully with daily logs, a rough draft on Saturday, and a published journal entry each Sunday, I’ll be able to keep myself focused and on task better this upcoming year.
+
+In my work as a printed circuit board designer, I did not have any goals for the past two weeks as I’ve been on holiday. This is the same for my mechanical design work as well. Thus, I have made no new ground in either area in the past week. For the upcoming week, I hope to finish a project I started last year to update a board design to make it as manufacturing-friendly as possible without changing the RF performance of the design in any way that would affect the qualification of the original design.
+
+In the web development self-study arena of my life, I wanted to stop focusing on just the Web API of JavaScript and improve in the general language so I decided to focus solely on JavaScript for the month of December. I attacked this from three angles, textbook learning with coding lessons, katas on codewars.com, and video tutorials. Each of these methods required researching published documentation and looking at questions others had about similar topics. As December has come to a close, I feel I have leveled up my skills in JavaScript greatly. For the next month, I feel it's wise to bring myself back to the world of web development again. This month's primary focus will be on CSS. This week I’d like to read the SMACSS book and try and understand the methodology behind this organization of CSS.
+
+Personally in addition to starting this journal, I’ve taken on the challenge of learning how to run comfortably for long distances. This has always been a goal of mine and over the past three years, I’ve tackled this with greater success in each attempt. I’ve started off slow as I’m running in shoes with no padding and on fairly unseasoned legs. This past week I was able to get in three runs at 1m15s run/45s break for 30 mins. My goal this week is to get three runs in each, at least, a 1m30s run/30s break pace at least 30 mins total.
+
+I hope this journaling project works out well for me, but even if it doesn’t, at least, I’ll be documenting the process. Hope you enjoy.
