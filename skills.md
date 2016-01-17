@@ -70,12 +70,12 @@ weight: 3
 
 ## Web Development
 
-- HTML                      <span>4.5</span>
-- CSS                       <span>4.0</span>
+- HTML                      <span>5.0</span>
+- CSS                       <span>4.5</span>
 - Sass                      <span>2.5</span>
 - Design                    <span>2.0</span>
 - Wordpress                 <span>3.0</span>
-- JavaScript                <span>3.5</span>
+- JavaScript                <span>4.0</span>
 - PHP                       <span>1.0</span>
 - Python                    <span>2.0</span>
 - Basic.NET                 <span>2.5</span>
