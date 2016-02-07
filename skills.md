@@ -76,7 +76,7 @@ weight: 3
 - Design                    <span>2.0</span>
 - Wordpress                 <span>3.0</span>
 - JavaScript                <span>4.5</span>
-- Node.js                   <sapn>3.5</sapn>
+- Node.js                   <span>3.5</span>
 - PHP                       <span>1.0</span>
 - Python                    <span>2.0</span>
 - Basic.NET                 <span>2.5</span>
