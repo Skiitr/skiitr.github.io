@@ -1,7 +1,7 @@
 ---
 title: Skills
 class: skillLevels
-weight: 3
+weight: 4
 ---
 
 ### Scale:
