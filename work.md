@@ -1,6 +1,6 @@
 ---
 title: Work
-weight: 2
+weight: 3
 ---
 
 ## Avidyne, Corp
