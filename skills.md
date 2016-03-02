@@ -71,16 +71,17 @@ weight: 4
 ## Web Development
 
 - HTML                      <span>5.0</span>
-- CSS                       <span>4.5</span>
-- Sass                      <span>2.5</span>
-- Design                    <span>2.0</span>
-- Wordpress                 <span>3.0</span>
-- JavaScript                <span>4.5</span>
-- Node.js                   <span>3.5</span>
-- PHP                       <span>1.0</span>
-- Python                    <span>2.0</span>
-- Basic.NET                 <span>2.5</span>
+- CSS                       <span>5.0</span>
+- JavaScript                <span>5.0</span>
 - Version Control           <span>4.0</span>
+- Sass                      <span>3.5</span>
+- Gulp                      <span>3.5</span>
+- Node.js                   <span>3.5</span>
+- Wordpress                 <span>3.0</span>
+- Basic.NET                 <span>2.5</span>
+- Design                    <span>2.0</span>
+- Python                    <span>2.0</span>
+- PHP                       <span>1.0</span>
 
 <hr />
 
@@ -108,5 +109,3 @@ weight: 4
 <hr />
 
 ## “Computers!”
-
-
