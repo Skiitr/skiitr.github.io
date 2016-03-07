@@ -1,10 +1,26 @@
 .post {
-  
+
+  .images {
+    display: flex;
+    align-items: center;
+    float: left;
+    margin-bottom: 1rem;
+    margin-right: 1.5rem;
+    @media (min-width: 600px) {
+      margin-left: 1.5rem;
+    }
+
+    img{
+      width: 85px;
+      height: 85px;
+    }
+  }
+
   .post__item, .post__header {
     list-style: none;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    
+
     a {
       color: $brand-color;
       margin-left: 1.25rem;
