@@ -7,7 +7,7 @@ Below you will find a small sample of projects I've been involved with over the 
 
 <hr />
 
-## Printed Circuit Board Layout 
+## Printed Circuit Board Layout
 
 ### Certified Avionics GPS / Nav / Com Systems
 Developed and maintained all 14 board designs for an avionics GPS/NAV/COM systems. The system includes front and backplane boards, display and button boards, 16W VHF radio boards as well as I/O and computational boards. Board technologies involved include high-speed digital, RF (VHF band), differential pairs, up to 17 layer boards, blind and epoxy filled cap plated vias. Designs required jigsaw fitting of PCBs into one another due to limited space. The project was successful though very close integration of the mechanical and electrical teams due to aggressive packaging.
@@ -31,7 +31,7 @@ The goal of this module was to take in 3 independent RF input signals at 2-3.75G
 This project was challenging due to the space qualification of the product. Everything on the design had to be designed to the highest standards. With soldered in tunable resonators for the cavity filter, custom transition tough a discrete low pass filter and finally going through a very low loss LNA, this project presented a muti-dimensional mechanical challenge. The final challenge of this project was that all qualification testing was required on every unit produced and the design passed all testing requirements.
 
 ### 30-512 MHz VHF / UHF 20W TX/RX Amplifier with Switched Filter Bank
-Project difficulties presented here was a tight mechanical outline with many fixed ports for both the VHF in and out, UHF in and out, and GPS receive channel. The approach taken here was a 4 mezzanine layered structure with different circuits top and bottom sides of each layer. The design was built as individual levels and assembled together with flex circuit cables and flexible RF connections. A low-frequency discrete switched filter bank became the largest challenge to both fit in the design as well as connect the receive and transmit paths of the amplifiers. Placing one power amplifier on top of another presented a significant thermal challenge that was overcome through finite element analysis and experimentation. The design of the project was finished and the contract never went into production due to funding falling through for the end customer. 
+Project difficulties presented here was a tight mechanical outline with many fixed ports for both the VHF in and out, UHF in and out, and GPS receive channel. The approach taken here was a 4 mezzanine layered structure with different circuits top and bottom sides of each layer. The design was built as individual levels and assembled together with flex circuit cables and flexible RF connections. A low-frequency discrete switched filter bank became the largest challenge to both fit in the design as well as connect the receive and transmit paths of the amplifiers. Placing one power amplifier on top of another presented a significant thermal challenge that was overcome through finite element analysis and experimentation. The design of the project was finished and the contract never went into production due to funding falling through for the end customer.
 
 ### Avionics Front Panel Integration
 Project involved working with two separate partner companies to customize two pieces of avionics equipment, an audio panel and transponder to match the company standards. During this process, it was required to create and design guide for a uniform style throughout each of five products currently under development as well as coordinate these developments to each of the partner companies we were working with. I was the principle engineer of these two products internally and worked closely with partner companies to ensure all specification were met to keep a standard look and feel to the products. The mechanical design required designing a usable customer interface with both backlit buttons and LCD display. These products were successfully developed internally and produced by our partner companies.
@@ -39,7 +39,7 @@ Project involved working with two separate partner companies to customize two pi
 ### RF Test Fixture Design (10MHz-21GHz)
 Frequently I have been asked to design test verification fixtures for RF products. These fixtures require very precision design and any added performance degradation in signal strength or quality would affect product testing. I was responsible for mechanical design, fabrication, and assembly of these test fixtures. I worked closely with electrical engineering to understand all electrical specification required. These fixtures required a level of human interaction design as well because most of these required someone to manual process 10-100 units though the fixtures regularly. Types of product that required fixturing were mixers, amplifiers, VCOs, and DROs. Many fixtures would take a design or two to achieve full specification compliance but in the end the designs would be both cable of testing the product and be easy to use.
 
-### Transmit Amplifiers for IED Jamming System (10MHz-6GHz) 
+### Transmit Amplifiers for IED Jamming System (10MHz-6GHz)
 The project was to design six mechanically identical 30W transmit amplifier modules each with a unique frequency band to cover overall the whole 10MHz to 6GHz spectrum. I was the principle mechanical engineering on this project and was responsible for all the packaging and planning of the module configuration. I worked closely with electrical engineers and board layout designers to create a uniform layout throughout each module. Designing high and low-frequency amplifiers in identical packaging was a large challenge. Also, a sealing requirement for sand and dust was required which was achieved through a mezzanine system with laser cut conductive silicone gaskets. Integration of the heatsink for each amplifier also was challenging as the package was very aggressively sized. This product met all design requirements and was successfully delivered to the customer.
 
 <hr />
@@ -48,17 +48,20 @@ The project was to design six mechanically identical 30W transmit amplifier modu
 
 ## Web Development
 
-### [Simplicity Sprouts](http://simplicitysprouts.com)
-This site is a Wordpress blog I developed and maintain. This was the first full site I've helped create, publish and maintain. There was a steep learning curve to learn Wordpress development, understand PHP for theme modification and deploy a website. This site had a successful rollout and continues to serve as a solid blogging platform.
+### [Trello Data Reporter](http://www.dangallagher.xyz/trello-data-reporter/)
+This is an application I developed to inspect my Trello boards to acquire a running progress report. The app interfaces with the Trello API and pulls all of your open boards and runs a report on your cards for a chosen board. I used Moment.js to allow this report to reference the current time. This application was designed in HMTL, Sass, and JavaScript. The Trello API required jQuery so this was included in the application along with Moment.js. I used a custom Gulp build file for serving development, building files for distribution, and deploying the page to GitHub Pages.
 
-### [Calculist](http://slylion.com/calculist)
-A simple web application whose purpose is to be both a simple calculator and a list program to store calculations. This is a simple JavaScript driven application and is all client-side. The application came into being as I found myself always needing a calculation I made 3 or 4 steps previous and would either have to write the info down as I went or re-calculate values. This application was to service that need. 
+### [AviFish](http://slylion.com/avifish)
+Designed and Developed an application to lighten the workload of generating links for a documentation control system. Avidyne uses a separate document control system from their configuration control system. This means to pull files from the configuration control system you need to link externally to it. This app runs a query based on a submitted changelist and given repository, opens a page and then the contents of the page can be copy and pasted into the app and the document links are extracted and formatted. Previously this has always been done manually. My original intent for this application was to query the page directly but due to cross-domains resource sharing restrictions I was unable to do this. This was designed in HTML, Sass, and JavaScript with a simdge of JQuery. I used Brackets which allowed for JSLint to be run on the JavaScript. A Jekyll template and a Gulp build process was used to do building, autoprefixing, minification, and browser sync during development. I have saved myself and another employee at Avidyne 5-15 mins of work each day by using this app rather than processing these links by hand.
 
 ### [Personal Portfolio Page](http://dangallagher.xyz)
 Designed and Developed the site this write up is on from scratch. I designed the mockup in Keynote. Jekyll was used both as a post processor for Sass and as a static site generator. Using Git for my version control, I was able to push this to Git Pages and deploy modifications easily.
 
-### [AviFish](http://slylion.com/avifish)
-Designed and Developed an application to lighten the workload of generating links for a documentation control system. Avidyne uses a separate document control system from their configuration control system. This means to pull files from the configuration control system you need to link externally to it. This app runs a query based on a submitted changelist and given repository, opens a page and then the contents of the page can be copy and pasted into the app and the document links are extracted and formatted. Previously this has always been done manually. My original intent for this application was to query the page directly but due to cross-domains resource sharing restrictions I was unable to do this. This was designed in HTML, Sass, and JavaScript with a simdge of JQuery. I used Brackets which allowed for JSLint to be run on the JavaScript. A Jekyll template and a Gulp build process was used to do building, autoprefixing, minification, and browser sync during development. I have saved myself and another employee at Avidyne 5-15 mins of work each day by using this app rather than processing these links by hand.
+### [Calculist](http://slylion.com/calculist)
+A simple web application whose purpose is to be both a simple calculator and a list program to store calculations. This is a simple JavaScript driven application and is all client-side. The application came into being as I found myself always needing a calculation I made 3 or 4 steps previous and would either have to write the info down as I went or re-calculate values. This application was to service that need.
+
+### [Simplicity Sprouts](http://simplicitysprouts.com)
+This site is a Wordpress blog I developed and maintain. This was the first full site I've helped create, publish and maintain. There was a steep learning curve to learn Wordpress development, understand PHP for theme modification and deploy a website. This site had a successful rollout and continues to serve as a solid blogging platform.
 
 <hr />
 
@@ -66,7 +69,7 @@ Designed and Developed an application to lighten the workload of generating link
 
 ## Configuration Management / Document Control
 
-### Transmit Amplifiers for IED Jamming System (10MHz-6GHz) 
+### Transmit Amplifiers for IED Jamming System (10MHz-6GHz)
 The project was to design six mechanically identical 30W transmit amplifier modules each with a unique frequency band to cover overall the whole 10MHz to 6GHz spectrum. I severed as one of the project managers/coordinators on this job. My role was to manage the configuration of each unit how it was built and assembled, how all the pieces were being fabricated and delivered, as well as how that fit into our overall schedule. This was managed through multiple vendors as well as across many site locations throughout the company.
 
 <hr />
@@ -92,5 +95,3 @@ One project that covered multiple disciplines was the creation of a prototype fa
 
 ### Global Library Standardization Project
 A team was created to incorporate the printed circuit board layout libraries of six divisions, originally of different company origin, into a single source that could be shared throughout the company. Along with this was the transitioning to single schematic and layout software across the company. I was one of three primary engineers on the team created to standardize the processes of each company. Upon reviewing component standards such as IPC, and the existing library setups created by each division we were able to craft a uniform library process that could be used by anyone in the company. A system was established to review and check parts. Also, a weekly teleconference was held to go over the challenges of the project and assign new tasks out to each division. The project took about 6 months to roll out in a complete form. Once setup and being used each of the six sites were able to create and edited library components (parts, schematic symbols, and footprints) that were available to all sites.
-
-
