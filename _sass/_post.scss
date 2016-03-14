@@ -36,7 +36,9 @@
 
     a {
       color: $brand-color;
-      margin-left: 1.25rem;
+      @media (min-width: 400px) {
+        margin-left: 1.25rem;
+      }
       @media (min-width: 600px) {
         margin-left: 3rem;
       }
