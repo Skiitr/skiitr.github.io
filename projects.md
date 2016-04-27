@@ -48,6 +48,9 @@ The project was to design six mechanically identical 30W transmit amplifier modu
 
 ## Web Development
 
+### [Calculist2](http://www.dangallagher.xyz/calculist2/)
+This is the next generation of my previous Calculist application, a simple web application whose purpose is to be both a simple calculator and a list program to store calculations. This application is written using the Angular.js JavaScript framework. I used Sass for styling and Gulp for the development, build and deployment of the application. This application has had it's initial release, but my plans are to continue to develop the calculator and eventually allow for user login and persistent state using Firebase and AngularFire.
+
 ### [Trello Data Reporter](http://www.dangallagher.xyz/trello-data-reporter/)
 This is an application I developed to inspect my Trello boards to acquire a running progress report. The app interfaces with the Trello API and pulls all of your open boards and runs a report on your cards for a chosen board. I used Moment.js to allow this report to reference the current time. This application was designed in HMTL, Sass, and JavaScript. The Trello API required jQuery so this was included in the application along with Moment.js. I used a custom Gulp build file for serving development, building files for distribution, and deploying the page to GitHub Pages.
 
