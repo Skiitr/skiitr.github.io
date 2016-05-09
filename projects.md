@@ -60,9 +60,6 @@ Designed and Developed an application to lighten the workload of generating link
 ### [Personal Portfolio Page](http://dangallagher.xyz)
 Designed and Developed the site this write up is on from scratch. I designed the mockup in Keynote. Jekyll was used both as a post processor for Sass and as a static site generator. Using Git for my version control, I was able to push this to Git Pages and deploy modifications easily.
 
-### [Calculist](http://slylion.com/calculist)
-A simple web application whose purpose is to be both a simple calculator and a list program to store calculations. This is a simple JavaScript driven application and is all client-side. The application came into being as I found myself always needing a calculation I made 3 or 4 steps previous and would either have to write the info down as I went or re-calculate values. This application was to service that need.
-
 ### [Simplicity Sprouts](http://simplicitysprouts.com)
 This site is a Wordpress blog I developed and maintain. This was the first full site I've helped create, publish and maintain. There was a steep learning curve to learn Wordpress development, understand PHP for theme modification and deploy a website. This site had a successful rollout and continues to serve as a solid blogging platform.
 

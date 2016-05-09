@@ -4,9 +4,9 @@ weight: 3
 ---
 
 ## Avidyne, Corp
-(Sept 2012 - Present >> 3 years)
+(Sept 2012 - Present >> 3.5 years)
 
-### Printed Circuit Board Layout 
+### Printed Circuit Board Layout
 Design and layout of complex multi layer circuit boards, both RF and high-speed digital. Maintenance of schematic, footprint and parts library systems. Management of all printed circuit board design projects from preliminary design review through fabrication of the boards and into production. Support of all legacy products for internal production as well as outside contract manufacturers.
 
 ### Mechanical Engineering
@@ -21,23 +21,23 @@ Support of configuration management / document control team. Create and implemen
 <hr />
 
 ## Independant Contractor / Freelance Designer
-(Sept 2012 - Present >> 3 years)
+(Sept 2012 - Present >> 3.5 years)
 
 ### Printed Circuit Board Layout
 Design and layout of complex multi-layer circuit boards. RF, high-speed digital, and mixed signal designs. Schematic entry and library creation.
 
 ### Printed Circuit Board Design Training
-Developed and trained individuals in the methodologies of circuit board layout. Also trained individuals in software specific approaches to designing. 
+Developed and trained individuals in the methodologies of circuit board layout. Also trained individuals in software specific approaches to designing.
 
 ### Mechanical Engineering
 Electronics packaging. Maintenance of legacy products and documentation.
 
 ### Web Development
-Wordpress site creation and maintenance. Front-end development of sites, HTML, CSS/Sass and limited photo editing. 
+Wordpress site creation and maintenance. Front-end development of sites, HTML, CSS/Sass and limited photo editing.
 
 <hr />
 
-## API Technologies, Corp (formerly Spectrum Microwave, Inc.)
+## Spectrum Microwave, Inc. / API Technologies, Corp.
 (Oct 2007-Sept 2012 >> 5 years)
 
 ### Printed Circuit Board Layout
@@ -68,16 +68,8 @@ Designed tools for setting up an automated pick and place line. Created programs
 
 <hr />
 
-## Powerwave Technologies, Inc.
-(Sept 2005 - Nov 2006 >> 1 year)
-
-### Printed Circuit Board Layout
-Design and layout of complex multi layer circuit boards. RF digital and mixed signal designs. Design and maintenance of schematic, footprint, and part library.
-
-<hr />
-
-## Remec, Inc.
-(May 2000 - Sept 2005 >> 5 years)
+## Remec, Inc. / Powerwave Technologies, Inc.
+(May 2000 - Nov 2006 >> 6 years)
 
 ### Printed Circuit Board Layout
 Design and layout of complex multi layer circuit boards. RF digital and mixed signal designs. Design and maintenance of schematic, footprint, and part library.
