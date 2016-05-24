@@ -4,7 +4,7 @@ weight: 3
 ---
 
 ## Avidyne, Corp
-(Sept 2012 - Present >> 3.5 years)
+(Sept 2012 - May 2016 >> 4 years)
 
 ### Printed Circuit Board Layout
 Design and layout of complex multi layer circuit boards, both RF and high-speed digital. Maintenance of schematic, footprint and parts library systems. Management of all printed circuit board design projects from preliminary design review through fabrication of the boards and into production. Support of all legacy products for internal production as well as outside contract manufacturers.
@@ -21,7 +21,7 @@ Support of configuration management / document control team. Create and implemen
 <hr />
 
 ## Independant Contractor / Freelance Designer
-(Sept 2012 - Present >> 3.5 years)
+(Summer 2012 - Present >> 4 years)
 
 ### Printed Circuit Board Layout
 Design and layout of complex multi-layer circuit boards. RF, high-speed digital, and mixed signal designs. Schematic entry and library creation.
