@@ -1,0 +1,23 @@
+---
+title: Front End Design Conference 2016
+Date: June 19th, 2016
+image1: /images/fedc.jpg
+---
+<div class='images'>
+<img src="{{ page.image1 }}" alt="logo of the front end design conference" />
+</div>
+I started on an adventure into the world of Web Development in the early part of 2015. In one way or another, since about 1996, I had always kept up with technologies in web design and web development but had not taken the time to dive in deeply until I found a passion for it in 2015. In recent history, all of 2016, I have been writing about my web development educational journey as a part of a weekly journal entry I make each week to my portfolio website. These entries are typically just over 500 words long and really don’t delve too far into how I’ve done something but rather note that I achieved a goal I had set out for myself. This has really kept me focusing on goals for the first half of the year.
+
+One of these goals I set for myself this year, was to attend a web technology conference. I had read the stories about Dan Denney and how The Front End Conference had started. I was overjoyed to know this was relatively in my backyard and I could choose this as the first conference to attend. I set my goal, bought my ticket and booked my hotel. I was ready.
+
+Just then, a new job opportunity came along in the hardware engineering part of my career. After a long winded weighing out of the pros and cons, I accepted the new position, which started 3 weeks prior to this conference. I had to put this in my acceptance that it was mandatory that I be allowed the time off to attend the conference shortly after I’ve started my employment. My new employer was very accommodating. Off I went, on Wednesday, June 15 right after work to St. Petersburg, Florida taking the first step to achieving this goal.
+
+I’m not the most social person on the planet. If you get me going on a subject, or I start to feel comfortable where I am, it can be quite overwhelming the amount of information I can project in a short period of time, but otherwise, I’m very content to be on my own. Knowing all of this I was worried about my attendance and how I would handle being at the conference alone. For the most part, I feel good about how I went about the process. It was a big leap to be there. Doing it alone was a scary thought. In the end, though, I couldn’t be happier that I attended.
+
+The first day I realized this might be more strongly focused on web design than web development and I felt a bit out of place. I don't like to label what I am, due to the number of skills I possess I feel I am just me, and putting a label on it often misjudges my abilities. But generally, I am more comfortable in code than in artistic theory. I soon learned what made the conference so special. Even if someone was talking about color theory, every talk had an element I could relate to and something I could take away. Bottom line was I got to listen to amazing people telling amazing stories and I felt blessed and inspired by them all. For the few talks that were a bit more developer focused, I felt more at home and can’t wait until I can try out some of these in my own projects.
+
+Mostly I develop on the web for fun, and on occasion, I do it to help create tools I can use to better my own working environment. In this manner, I was also a bit more reclusive about being at the conference. I wasn’t sure how it would be viewed. I was someone who only did this for fun and wanted to come to an event like this to be inspired to create more and continue my education. Overall leaving the conference I felt very welcomed and I doubt anyone would have judged me on the basis of my lack of professional experience.
+
+There were some talks that were slightly more moving for me. Aaron Draplin’s story of his book was just an honor to hear. Never have I heard a person I felt was more humble and honest about his successes. What a great human being. Another was Doug Neiner’s talk on React.js. It was more the opening that hit home with me and the idea of finding time outside of technology to level up in life as well. Also Samantha Warren’s talk on ‘minding the gap’ resonated with my recent delve into the web development world. Everyone, I felt, gave great talks and if I repeated it all over, I wouldn’t have skipped a single one. But those three were the ones that hit me the hardest.
+
+So my big goal has been achieved. I attended my first web technologies conference. I’m very honored to have been among the attendees of the 2016 Front End Design Conference and I very much look forward to being able to do it again next year.
