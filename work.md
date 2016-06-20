@@ -3,6 +3,14 @@ title: Work
 weight: 3
 ---
 
+## Orion Technologies, LLC
+(May 2016 - Present)
+
+### Printed Circuit Board Layout
+Design and layout of complex multi layer circuit boards.
+
+<hr />
+
 ## Avidyne, Corp
 (Sept 2012 - May 2016 >> 4 years)
 
@@ -21,7 +29,7 @@ Support of configuration management / document control team. Create and implemen
 <hr />
 
 ## Independant Contractor / Freelance Designer
-(Summer 2012 - Present >> 4 years)
+(Summer 2012 - Present)
 
 ### Printed Circuit Board Layout
 Design and layout of complex multi-layer circuit boards. RF, high-speed digital, and mixed signal designs. Schematic entry and library creation.
