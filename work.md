@@ -11,23 +11,6 @@ Design and layout of complex multi layer circuit boards.
 
 <hr />
 
-## Avidyne, Corp
-(Sept 2012 - May 2016 >> 4 years)
-
-### Printed Circuit Board Layout
-Design and layout of complex multi layer circuit boards, both RF and high-speed digital. Maintenance of schematic, footprint and parts library systems. Management of all printed circuit board design projects from preliminary design review through fabrication of the boards and into production. Support of all legacy products for internal production as well as outside contract manufacturers.
-
-### Mechanical Engineering
-Design and development of mechanical systems. Support and maintenance  of legacy mechanical products.
-
-### Component Engineering
-Ongoing support of components used in current run production products as well as legacy products for lifetime support. Managed component obsolescence and located second source parts. Coordinated with hardware engineering to validate findings. Implemented component change orders.
-
-### Configuration Management / Document Control
-Support of configuration management / document control team. Create and implement engineering change orders. Cross implementation of ERP and MRP systems.
-
-<hr />
-
 ## Independant Contractor / Freelance Designer
 (Summer 2012 - Present)
 
@@ -42,6 +25,23 @@ Electronics packaging. Maintenance of legacy products and documentation.
 
 ### Web Development
 Wordpress site creation and maintenance. Front-end development of sites, HTML, CSS/Sass and limited photo editing.
+
+<hr />
+
+## Avidyne, Corp
+(Sept 2012 - May 2016 >> 4 years)
+
+### Printed Circuit Board Layout
+Design and layout of complex multi layer circuit boards, both RF and high-speed digital. Maintenance of schematic, footprint and parts library systems. Management of all printed circuit board design projects from preliminary design review through fabrication of the boards and into production. Support of all legacy products for internal production as well as outside contract manufacturers.
+
+### Mechanical Engineering
+Design and development of mechanical systems. Support and maintenance  of legacy mechanical products.
+
+### Component Engineering
+Ongoing support of components used in current run production products as well as legacy products for lifetime support. Managed component obsolescence and located second source parts. Coordinated with hardware engineering to validate findings. Implemented component change orders.
+
+### Configuration Management / Document Control
+Support of configuration management / document control team. Create and implement engineering change orders. Cross implementation of ERP and MRP systems.
 
 <hr />
 
