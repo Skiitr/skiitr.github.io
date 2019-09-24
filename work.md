@@ -6,6 +6,9 @@ weight: 3
 ## Orion Technologies, LLC
 (May 2016 - Present)
 
+### Project Manager
+Plan, Monitor and Control, and Execute Engineering Projects from customer PO to shipment. PMI Certified as an Agile Certified Practitioner.
+
 ### Printed Circuit Board Layout
 Design and layout of complex multi layer circuit boards.
 
