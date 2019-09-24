@@ -12,6 +12,16 @@ weight: 4
 
 <hr />
 
+## Project Management
+
+- Planning                  <span>8.0</span>
+- Tracking Resources        <span>7.5</span>
+- Budget Management         <span>7.0</span>
+- Scheduling                <span>6.5</span>
+- Customer Comminucation    <span>8.5</span>
+
+<hr />
+
 ## Printed Circuit Board Design
 
 - Schematic Entry           <span>8.5</span>
@@ -97,14 +107,6 @@ weight: 4
 - Part Maintenance          <span>7.5</span>
 - Obsolescence              <span>5.0</span>
 - Second Source             <span>6.5</span>
-
-<hr />
-
-## Project Management
-
-- Planning                  <span>5.0</span>
-- Tracking Resources        <span>6.0</span>
-- Scheduling                <span>5.0</span>
 
 <hr />
 
